@@ -1,0 +1,9 @@
+app-title = Weather
+app-comment = its a weather application for cosmic desktop
+app-keywords =
+about = About
+repository = Repository
+view = View
+welcome = Welcome to COSMIC! ✨
+page-id = Page { $num }
+git-description = Git commit {$hash} on {$date}

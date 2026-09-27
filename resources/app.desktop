@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=Weather
+Comment=Weather for COSMIC Desktop
+Type=Application
+Icon=io.github.pop_os.cosmic-app-template
+Exec=weather_for_cosmic %F
+Terminal=false
+StartupNotify=true
+Categories=COSMIC
+Keywords=COSMIC
+MimeType=
