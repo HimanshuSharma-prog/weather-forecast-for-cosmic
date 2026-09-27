@@ -188,7 +188,11 @@ impl cosmic::Application for AppModel {
             .name(fl!("app-title"))
             .icon(widget::icon::from_raster_bytes(APP_ICON))
             .version(env!("CARGO_PKG_VERSION"))
-            .links([(fl!("repository"), REPOSITORY)])
+            .developers([("Himanshu Sharma", "https://sharmahimanshu.vercel.app/")])
+            .links([
+                (fl!("website"), "https://sharmahimanshu.vercel.app/"),
+                (fl!("repository"), REPOSITORY),
+            ])
             .license(env!("CARGO_PKG_LICENSE"));
 
         let mut config = cosmic_config::Config::new(APP_ID, Config::VERSION)

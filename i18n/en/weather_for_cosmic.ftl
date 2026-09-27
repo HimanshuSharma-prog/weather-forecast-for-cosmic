@@ -2,6 +2,7 @@ app-title = Weather
 app-comment = its a weather application for cosmic desktop
 app-keywords =
 about = About
+website = Website
 repository = Repository
 view = View
 welcome = Welcome to COSMIC! ✨

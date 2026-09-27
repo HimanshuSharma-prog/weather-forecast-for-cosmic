@@ -3,8 +3,10 @@ name = "weather_for_cosmic"
 version = "0.1.0"
 edition = "2024"
 license = "MPL-2.0"
-description = "its a weather application for cosmic desktop"
-repository = "https://github.com/pop-os/cosmic-app-template"
+description = "Weather application for COSMIC Desktop"
+repository = "https://github.com/HimanshuSharma-prog/weather-forecast-for-cosmic"
+homepage = "https://sharmahimanshu.vercel.app/"
+authors = ["Himanshu Sharma <sharmahimanshu1611@gmail.com>"]
 
 [dependencies]
 i18n-embed = { version = "0.16", features = [

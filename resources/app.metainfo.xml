@@ -5,10 +5,10 @@
   <project_license>MPL-2.0</project_license>
   <name>Weather</name>
   <summary>Weather application for COSMIC Desktop</summary>
-  <icon type="remote" width="64" height="64" scale="1">
-    https://github.com/pop-os/cosmic-app-template/raw/main/resources/icons/hicolor/scalable/apps/icon.svg
-  </icon>
-  <url type="vcs-browser">https://github.com/pop-os/cosmic-app-template</url>
+  <icon type="cached" width="64" height="64">io.github.pop_os.cosmic-app-template</icon>
+  <url type="homepage">https://sharmahimanshu.vercel.app/</url>
+  <url type="vcs-browser">https://github.com/HimanshuSharma-prog/weather-forecast-for-cosmic</url>
+  <developer_name>Himanshu Sharma</developer_name>
   <launchable type="desktop-id">io.github.pop_os.cosmic-app-template.desktop</launchable>
   <provides>
     <id>com.system76.CosmicApplication</id>
