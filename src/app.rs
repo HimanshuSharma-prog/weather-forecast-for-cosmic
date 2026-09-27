@@ -21,7 +21,7 @@ use cosmic::Task;
 use std::collections::HashMap;
 use std::sync::Arc;
 
-const APP_ID: &str = "io.github.pop_os.cosmic-app-template";
+const APP_ID: &str = "io.github.HimanshuSharma_prog.weather_for_cosmic";
 const REPOSITORY: &str = env!("CARGO_PKG_REPOSITORY");
 const APP_ICON: &[u8] = include_bytes!("../resources/icon.png");
 const DEFAULT_CITY: &str = "Bengaluru, IN";

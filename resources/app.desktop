@@ -2,10 +2,10 @@
 Name=Weather
 Comment=Weather for COSMIC Desktop
 Type=Application
-Icon=io.github.pop_os.cosmic-app-template
+Icon=io.github.HimanshuSharma_prog.weather_for_cosmic
 Exec=weather_for_cosmic %F
 Terminal=false
 StartupNotify=true
-Categories=COSMIC
-Keywords=COSMIC
+Categories=COSMIC;Utility;Science;
+Keywords=COSMIC;Weather;Forecast;Temperature;Map;
 MimeType=

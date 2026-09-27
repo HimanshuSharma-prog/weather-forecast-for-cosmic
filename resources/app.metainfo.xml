@@ -1,35 +1,88 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <component type="desktop-application">
-  <id>io.github.pop_os.cosmic-app-template</id>
+  <id>io.github.HimanshuSharma_prog.weather_for_cosmic</id>
   <metadata_license>CC0-1.0</metadata_license>
   <project_license>MPL-2.0</project_license>
   <name>Weather</name>
-  <summary>Weather application for COSMIC Desktop</summary>
-  <icon type="cached" width="64" height="64">io.github.pop_os.cosmic-app-template</icon>
+  <summary>Weather application for the COSMIC Desktop</summary>
+
+  <description>
+    <p>
+      Weather for COSMIC is a modern, intuitive, and feature-rich weather forecast application designed natively for the COSMIC Desktop Environment.
+    </p>
+    <p>Features include:</p>
+    <ul>
+      <li>Live weather telemetry: Real-time temperature, condition states, and daily high/low bounds.</li>
+      <li>Atmospheric metrics: Detailed readouts for wind speed and direction, humidity, barometric pressure, visibility, UV index, and dew point.</li>
+      <li>Interactive hourly charts: Beautiful gradient-filled temperature spline curve and precipitation probability bars with easy carousel pagination.</li>
+      <li>7-day extended forecast: Multi-day predictions with condition icons and temperature trends.</li>
+      <li>Interactive weather and satellite map: OpenStreetMap Carto tiles with smooth panning, zooming, and click-to-inspect coordinate weather.</li>
+      <li>Instant place search: Fast location suggestions and geocoding auto-complete.</li>
+      <li>Saved locations: Star and bookmark favorite cities for instant switching.</li>
+      <li>Native COSMIC styling: Automatic adaptation to system light/dark themes and accent colors.</li>
+    </ul>
+  </description>
+
   <url type="homepage">https://sharmahimanshu.vercel.app/</url>
   <url type="vcs-browser">https://github.com/HimanshuSharma-prog/weather-forecast-for-cosmic</url>
-  <developer_name>Himanshu Sharma</developer_name>
-  <launchable type="desktop-id">io.github.pop_os.cosmic-app-template.desktop</launchable>
+  <url type="bugtracker">https://github.com/HimanshuSharma-prog/weather-forecast-for-cosmic/issues</url>
+
+  <developer id="app.vercel.sharmahimanshu">
+    <name>Himanshu Sharma</name>
+  </developer>
+
+  <launchable type="desktop-id">io.github.HimanshuSharma_prog.weather_for_cosmic.desktop</launchable>
+
+  <screenshots>
+    <screenshot type="default">
+      <caption>Primary weather dashboard, atmospheric metrics, and hourly forecast</caption>
+      <image>https://raw.githubusercontent.com/HimanshuSharma-prog/weather-forecast-for-cosmic/main/resources/screenshots/screenshot.png</image>
+    </screenshot>
+  </screenshots>
+
+  <releases>
+    <release version="0.1.0" date="2026-09-27">
+      <description>
+        <p>Initial release of Weather for COSMIC Desktop.</p>
+        <ul>
+          <li>Modern interface tailored for the COSMIC desktop environment</li>
+          <li>Comprehensive weather telemetry and 6-card atmospheric metrics</li>
+          <li>Bezier spline hourly temperature graphs and precipitation bars</li>
+          <li>Integrated OpenStreetMap Carto radar and weather map</li>
+          <li>Instant place search and saved favorite locations</li>
+        </ul>
+      </description>
+    </release>
+  </releases>
+
   <provides>
     <id>com.system76.CosmicApplication</id>
-    <binaries>
-      <binary>weather_for_cosmic</binary>
-    </binaries>
+    <binary>weather_for_cosmic</binary>
   </provides>
+
   <requires>
     <display_length compare="ge">360</display_length>
   </requires>
+
   <supports>
     <control>keyboard</control>
     <control>pointing</control>
     <control>touch</control>
   </supports>
+
   <categories>
+    <category>Utility</category>
+    <category>Science</category>
     <category>COSMIC</category>
   </categories>
+
   <keywords>
     <keyword>COSMIC</keyword>
+    <keyword>Weather</keyword>
+    <keyword>Forecast</keyword>
+    <keyword>Temperature</keyword>
+    <keyword>Map</keyword>
   </keywords>
+
   <content_rating type="oars-1.1" />
 </component>
-

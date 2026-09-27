@@ -1,7 +1,7 @@
 # Name of the application's binary.
 name := 'weather_for_cosmic'
 # The unique ID of the application.
-appid := 'io.github.pop_os.cosmic-app-template'
+appid := 'io.github.HimanshuSharma_prog.weather_for_cosmic'
 
 # Path to root file system, which defaults to `/`.
 rootdir := ''
